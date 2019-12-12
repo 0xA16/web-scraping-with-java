@@ -13,7 +13,7 @@ import org.jsoup.select.Elements;
 public class movieScrap {
 	public static void main(String[] args) throws IOException {
 		Scanner s = new Scanner(System.in);
-		System.out.println("Enter fgygy : ");
+		System.out.println("Enter Name : ");
 		String input = s.nextLine().replace(" " , "+");
 		imovieTime i = new imovieTime(input);
 		System.out.println(i.getImgLink());
